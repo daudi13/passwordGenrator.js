@@ -1,0 +1,29 @@
+.container {
+    background-color: $dark-purple;
+    box-shadow: $shadow;
+    padding: 20px;
+    width: 350px;
+    max-width: 100%;
+
+    h2 {
+        margin: 10px 0 20px;
+        text-align: center;
+    }
+
+    .result-container {
+        background-color: $trans-black;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+        font-size: 18px;
+        letter-spacing: 1px;
+        padding: 12px 10px;
+        height: 50px;
+        width: 100%;
+
+        #result {
+            word-wrap: break-word;
+        }
+    }
+}
